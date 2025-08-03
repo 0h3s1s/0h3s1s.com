@@ -1,0 +1,6 @@
+white - 195x100
+small x1 - 150x30
+small x2 - 300x60
+
+big - 300x238
+medium - 120x119
