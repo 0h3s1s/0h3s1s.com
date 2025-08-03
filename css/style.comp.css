@@ -722,6 +722,13 @@ body {
 @media only screen and (max-width: 75em) {
   .popup__content {
     display: block;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .popup__content {
+    display: block;
+    width: 90%;
   }
 }
 .popup__left {
@@ -757,6 +764,7 @@ body {
 .popup__text {
   font-size: 1.4rem;
   margin-bottom: 4rem;
+  text-align: justify;
   hyphens: auto;
 }
 .popup:target {
