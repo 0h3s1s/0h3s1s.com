@@ -26,6 +26,12 @@
 
     @include respond(tab-land) {
       display: block;
+      width: 80%;
+    }
+
+    @include respond(phone) {
+      display: block;
+      width: 90%;
     }
   }
 
@@ -62,7 +68,7 @@
   &__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
-
+    text-align: justify;
     hyphens: auto;
   }
 
