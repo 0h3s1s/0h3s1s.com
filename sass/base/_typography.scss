@@ -84,6 +84,8 @@ body {
 
 .paragraph {
   font-size: $default-font-size;
+  text-align: justify;
+  hyphens: auto;
 
   &:not(:last-child) {
     margin-bottom: 3rem;
