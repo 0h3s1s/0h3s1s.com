@@ -970,11 +970,11 @@ body {
   }
 }
 .card__picture--2 {
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/ohesisGasBlack.png);
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/books.jpg);
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__picture--2 {
-    background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/ohesisGasBlack.png);
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/books.jpg);
   }
 }
 .card__picture--3 {
