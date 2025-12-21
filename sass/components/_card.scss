@@ -25,43 +25,81 @@
       transform: rotateY(180deg);
 
       &-1 {
-        background-image: linear-gradient(
-          to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
-        );
+        background-image: linear-gradient(to right bottom,
+            $color-secondary-light,
+            $color-secondary-dark );
 
-        @media only screen and (min-width: 56.25em), (min-width: 125em) {
-          background-image: linear-gradient(
-            to right bottom,
-            $color-primary-light,
-            $color-primary-dark
-          );
+        @media only screen and (min-width: 56.25em),
+        (min-width: 125em) {
+          background-image: linear-gradient(to right bottom,
+              $color-primary-light,
+              $color-primary-dark );
         }
       }
 
       &-2 {
-        background-image: linear-gradient(
-          to right bottom,
-          $color-primary-light,
-          $color-primary-dark
-        );
+        background-image: linear-gradient(to right bottom,
+            $color-primary-light,
+            $color-primary-dark );
 
-        @media only screen and (min-width: 56.25em), (min-width: 125em) {
-          background-image: linear-gradient(
-            to right bottom,
-            $color-secondary-light,
-            $color-secondary-dark
-          );
+        @media only screen and (min-width: 56.25em),
+        (min-width: 125em) {
+          background-image: linear-gradient(to right bottom,
+              $color-secondary-light,
+              $color-secondary-dark );
         }
       }
 
       &-3 {
-        background-image: linear-gradient(
-          to right bottom,
-          $color-terciary-light,
-          $color-terciary-dark
-        );
+        background-image: linear-gradient(to right bottom,
+            $color-terciary-light,
+            $color-terciary-dark );
+
+        @media only screen and (min-width: 56.25em),
+        (min-width: 125em) {
+          background-image: linear-gradient(to right bottom,
+              $color-terciary-light,
+              $color-terciary-dark );
+        }
+      }
+
+      &-4 {
+        background-image: linear-gradient(to right bottom,
+            $color-quaternary-light,
+            $color-quaternary-dark );
+
+        @media only screen and (min-width: 56.25em),
+        (min-width: 125em) {
+          background-image: linear-gradient(to right bottom,
+              $color-quaternary-light,
+              $color-quaternary-dark );
+        }
+      }
+
+      &-5 {
+        background-image: linear-gradient(to right bottom,
+            $color-quinary-light,
+            $color-quinary-dark );
+
+        @media only screen and (min-width: 56.25em),
+        (min-width: 125em) {
+          background-image: linear-gradient(to right bottom,
+              $color-quinary-light,
+              $color-quinary-dark );
+        }
+      }
+
+      &-6 {
+        background-image: linear-gradient(to right bottom,
+            $color-senary-light,
+            $color-senary-dark );
+
+        @media only screen and (min-width: 56.25em),
+        (min-width: 125em) {
+          background-image: linear-gradient(to right bottom,
+              $color-senary-light,
+              $color-senary-dark );
+        }
       }
     }
   }
@@ -85,48 +123,93 @@
     border-top-right-radius: 3px;
 
     &--1 {
-      background-image: linear-gradient(
-          to right bottom,
+      background-image: linear-gradient(to right bottom,
           $color-secondary-light,
-          $color-secondary-dark
-        ),
+          $color-secondary-dark ),
         url(../img/mastermind.png);
 
-      @media only screen and (min-width: 56.25em), (min-width: 125em) {
-        background-image: linear-gradient(
-            to right bottom,
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
             $color-primary-light,
-            $color-primary-dark
-          ),
+            $color-primary-dark ),
           url(../img/mastermind.png);
       }
     }
 
     &--2 {
-      background-image: linear-gradient(
-          to right bottom,
+      background-image: linear-gradient(to right bottom,
           $color-primary-light,
-          $color-primary-dark
-        ),
+          $color-primary-dark ),
         url(../img/books.jpg);
 
-      @media only screen and (min-width: 56.25em), (min-width: 125em) {
-        background-image: linear-gradient(
-            to right bottom,
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
             $color-secondary-light,
-            $color-secondary-dark
-          ),
+            $color-secondary-dark ),
           url(../img/books.jpg);
       }
     }
 
     &--3 {
-      background-image: linear-gradient(
-          to right bottom,
+      background-image: linear-gradient(to right bottom,
           $color-terciary-light,
-          $color-terciary-dark
-        ),
+          $color-terciary-dark ),
         url(../img/guessnumber2.jpg);
+
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            $color-terciary-light,
+            $color-terciary-dark ),
+          url(../img/guessnumber2.jpg);
+      }
+    }
+
+    &--4 {
+      background-image: linear-gradient(to right bottom,
+          $color-quaternary-light,
+          $color-quaternary-dark ),
+        url(../img/rolling-dices.png);
+
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            $color-quaternary-light,
+            $color-quaternary-dark),
+          url(../img/rolling-dices.png);
+      }
+    }
+
+    &--5 {
+      background-image: linear-gradient(to right bottom,
+          $color-quinary-light,
+          $color-quinary-dark ),
+        url(../img/ohesisGasblack.png);
+
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            $color-quinary-light,
+            $color-quinary-dark),
+          url(../img/ohesisGasblack.png);
+      }
+    }
+
+    &--6 {
+      background-image: linear-gradient(to right bottom,
+          $color-senary-light,
+          $color-senary-dark ),
+        url(../img/ohesisGasblack.png);
+
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            $color-senary-light,
+            $color-senary-dark),
+          url(../img/ohesisGasblack.png);
+      }
     }
   }
 
@@ -148,43 +231,81 @@
     box-decoration-break: clone;
 
     &--1 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-secondary-light, 0.85),
-        rgba($color-secondary-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom,
+          rgba($color-secondary-light, 0.85),
+          rgba($color-secondary-dark, 0.85));
 
-      @media only screen and (min-width: 56.25em), (min-width: 125em) {
-        background-image: linear-gradient(
-          to right bottom,
-          rgba($color-primary-light, 0.85),
-          rgba($color-primary-dark, 0.85)
-        );
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            rgba($color-primary-light, 0.85),
+            rgba($color-primary-dark, 0.85));
       }
     }
 
     &--2 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-primary-light, 0.85),
-        rgba($color-primary-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom,
+          rgba($color-primary-light, 0.85),
+          rgba($color-primary-dark, 0.85));
 
-      @media only screen and (min-width: 56.25em), (min-width: 125em) {
-        background-image: linear-gradient(
-          to right bottom,
-          rgba($color-secondary-light, 0.85),
-          rgba($color-secondary-dark, 0.85)
-        );
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            rgba($color-secondary-light, 0.85),
+            rgba($color-secondary-dark, 0.85));
       }
     }
 
     &--3 {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-terciary-light, 0.85),
-        rgba($color-terciary-dark, 0.85)
-      );
+      background-image: linear-gradient(to right bottom,
+          rgba($color-terciary-light, 0.85),
+          rgba($color-terciary-dark, 0.85));
+
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            rgba($color-terciary-light, 0.85),
+            rgba($color-terciary-dark, 0.85));
+      }
+    }
+
+    &--4 {
+      background-image: linear-gradient(to right bottom,
+          rgba($color-quaternary-light, 0.85),
+          rgba($color-quaternary-dark, 0.85));
+
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            rgba($color-quaternary-light, 0.85),
+            rgba($color-quaternary-dark, 0.85));
+      }
+    }
+
+    &--5 {
+      background-image: linear-gradient(to right bottom,
+          rgba($color-quinary-light, 0.85),
+          rgba($color-quinary-dark, 0.85));
+
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            rgba($color-quinary-light, 0.85),
+            rgba($color-quinary-dark, 0.85));
+      }
+    }
+
+    &--6 {
+      background-image: linear-gradient(to right bottom,
+          rgba($color-senary-light, 0.85),
+          rgba($color-senary-dark, 0.85));
+
+      @media only screen and (min-width: 56.25em),
+      (min-width: 125em) {
+        background-image: linear-gradient(to right bottom,
+            rgba($color-senary-light, 0.85),
+            rgba($color-senary-dark, 0.85));
+      }
     }
   }
 
@@ -219,7 +340,8 @@
   }
 
   //@include respond(tab-port) {
-  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+  @media only screen and (max-width: 56.25em),
+  only screen and (hover: none) {
     height: auto;
     border-radius: 3px;
     background-color: $color-white;

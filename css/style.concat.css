@@ -946,6 +946,35 @@ body {
 .card__side--back-3 {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
 }
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__side--back-3 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+  }
+}
+.card__side--back-4 {
+  background-image: linear-gradient(to right bottom, #FB411C, #B146C1);
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__side--back-4 {
+    background-image: linear-gradient(to right bottom, #FB411C, #B146C1);
+  }
+}
+.card__side--back-5 {
+  background-image: linear-gradient(to right bottom, #fdfd96, #c5c6c8);
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__side--back-5 {
+    background-image: linear-gradient(to right bottom, #fdfd96, #c5c6c8);
+  }
+}
+.card__side--back-6 {
+  background-image: linear-gradient(to right bottom, #F8EDEB, #A2C8CC);
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__side--back-6 {
+    background-image: linear-gradient(to right bottom, #F8EDEB, #A2C8CC);
+  }
+}
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
 }
@@ -979,6 +1008,35 @@ body {
 }
 .card__picture--3 {
   background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/guessnumber2.jpg);
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__picture--3 {
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/guessnumber2.jpg);
+  }
+}
+.card__picture--4 {
+  background-image: linear-gradient(to right bottom, #FB411C, #B146C1), url(../img/rolling-dices.png);
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__picture--4 {
+    background-image: linear-gradient(to right bottom, #FB411C, #B146C1), url(../img/rolling-dices.png);
+  }
+}
+.card__picture--5 {
+  background-image: linear-gradient(to right bottom, #fdfd96, #c5c6c8), url(../img/ohesisGasblack.png);
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__picture--5 {
+    background-image: linear-gradient(to right bottom, #fdfd96, #c5c6c8), url(../img/ohesisGasblack.png);
+  }
+}
+.card__picture--6 {
+  background-image: linear-gradient(to right bottom, #F8EDEB, #A2C8CC), url(../img/ohesisGasblack.png);
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__picture--6 {
+    background-image: linear-gradient(to right bottom, #F8EDEB, #A2C8CC), url(../img/ohesisGasblack.png);
+  }
 }
 .card__heading {
   font-size: 2.8rem;
@@ -1014,6 +1072,35 @@ body {
 }
 .card__heading-span--3 {
   background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__heading-span--3 {
+    background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
+  }
+}
+.card__heading-span--4 {
+  background-image: linear-gradient(to right bottom, rgba(251, 65, 28, 0.85), rgba(177, 70, 193, 0.85));
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__heading-span--4 {
+    background-image: linear-gradient(to right bottom, rgba(251, 65, 28, 0.85), rgba(177, 70, 193, 0.85));
+  }
+}
+.card__heading-span--5 {
+  background-image: linear-gradient(to right bottom, rgba(253, 253, 150, 0.85), rgba(197, 198, 200, 0.85));
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__heading-span--5 {
+    background-image: linear-gradient(to right bottom, rgba(253, 253, 150, 0.85), rgba(197, 198, 200, 0.85));
+  }
+}
+.card__heading-span--6 {
+  background-image: linear-gradient(to right bottom, rgba(248, 237, 235, 0.85), rgba(162, 200, 204, 0.85));
+}
+@media only screen and (min-width: 56.25em), (min-width: 125em) {
+  .card__heading-span--6 {
+    background-image: linear-gradient(to right bottom, rgba(248, 237, 235, 0.85), rgba(162, 200, 204, 0.85));
+  }
 }
 .card__details {
   padding: 3rem;
