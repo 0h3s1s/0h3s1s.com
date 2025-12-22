@@ -349,7 +349,7 @@ body {
   transform: rotateY(180deg);
 }
 .card__side--back-1 {
-  background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__side--back-1 {
@@ -357,7 +357,7 @@ body {
   }
 }
 .card__side--back-2 {
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__side--back-2 {
@@ -381,11 +381,11 @@ body {
   }
 }
 .card__side--back-5 {
-  background-image: linear-gradient(to right bottom, #fdfd96, #c5c6c8);
+  background-image: linear-gradient(to right bottom, #a44a3f, #a5a58d);
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__side--back-5 {
-    background-image: linear-gradient(to right bottom, #fdfd96, #c5c6c8);
+    background-image: linear-gradient(to right bottom, #a44a3f, #a5a58d);
   }
 }
 .card__side--back-6 {
@@ -420,19 +420,19 @@ body {
   }
 }
 .card__picture--2 {
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/books.jpg);
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/books.png);
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__picture--2 {
-    background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/books.jpg);
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/books.png);
   }
 }
 .card__picture--3 {
-  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/guessnumber2.jpg);
+  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/guessnumber.jpg);
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__picture--3 {
-    background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/guessnumber2.jpg);
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/guessnumber.jpg);
   }
 }
 .card__picture--4 {
@@ -444,11 +444,11 @@ body {
   }
 }
 .card__picture--5 {
-  background-image: linear-gradient(to right bottom, #fdfd96, #c5c6c8), url(../img/ohesisGasblack.png);
+  background-image: linear-gradient(to right bottom, #a44a3f, #a5a58d), url(../img/jankenpon.png);
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__picture--5 {
-    background-image: linear-gradient(to right bottom, #fdfd96, #c5c6c8), url(../img/ohesisGasblack.png);
+    background-image: linear-gradient(to right bottom, #a44a3f, #a5a58d), url(../img/jankenpon.png);
   }
 }
 .card__picture--6 {
@@ -508,11 +508,11 @@ body {
   }
 }
 .card__heading-span--5 {
-  background-image: linear-gradient(to right bottom, rgba(253, 253, 150, 0.85), rgba(197, 198, 200, 0.85));
+  background-image: linear-gradient(to right bottom, rgba(164, 74, 63, 0.85), rgba(165, 165, 141, 0.85));
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__heading-span--5 {
-    background-image: linear-gradient(to right bottom, rgba(253, 253, 150, 0.85), rgba(197, 198, 200, 0.85));
+    background-image: linear-gradient(to right bottom, rgba(164, 74, 63, 0.85), rgba(165, 165, 141, 0.85));
   }
 }
 .card__heading-span--6 {

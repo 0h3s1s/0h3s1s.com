@@ -26,8 +26,8 @@
 
       &-1 {
         background-image: linear-gradient(to right bottom,
-            $color-secondary-light,
-            $color-secondary-dark );
+            $color-primary-light,
+            $color-primary-dark );
 
         @media only screen and (min-width: 56.25em),
         (min-width: 125em) {
@@ -39,8 +39,8 @@
 
       &-2 {
         background-image: linear-gradient(to right bottom,
-            $color-primary-light,
-            $color-primary-dark );
+            $color-secondary-light,
+            $color-secondary-dark );
 
         @media only screen and (min-width: 56.25em),
         (min-width: 125em) {
@@ -141,14 +141,14 @@
       background-image: linear-gradient(to right bottom,
           $color-primary-light,
           $color-primary-dark ),
-        url(../img/books.jpg);
+        url(../img/books.png);
 
       @media only screen and (min-width: 56.25em),
       (min-width: 125em) {
         background-image: linear-gradient(to right bottom,
             $color-secondary-light,
             $color-secondary-dark ),
-          url(../img/books.jpg);
+          url(../img/books.png);
       }
     }
 
@@ -156,14 +156,14 @@
       background-image: linear-gradient(to right bottom,
           $color-terciary-light,
           $color-terciary-dark ),
-        url(../img/guessnumber2.jpg);
+        url(../img/guessnumber.jpg);
 
       @media only screen and (min-width: 56.25em),
       (min-width: 125em) {
         background-image: linear-gradient(to right bottom,
             $color-terciary-light,
             $color-terciary-dark ),
-          url(../img/guessnumber2.jpg);
+          url(../img/guessnumber.jpg);
       }
     }
 
@@ -186,14 +186,14 @@
       background-image: linear-gradient(to right bottom,
           $color-quinary-light,
           $color-quinary-dark ),
-        url(../img/ohesisGasblack.png);
+        url(../img/jankenpon.png);
 
       @media only screen and (min-width: 56.25em),
       (min-width: 125em) {
         background-image: linear-gradient(to right bottom,
             $color-quinary-light,
             $color-quinary-dark),
-          url(../img/ohesisGasblack.png);
+          url(../img/jankenpon.png);
       }
     }
 
