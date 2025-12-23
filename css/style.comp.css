@@ -452,11 +452,11 @@ body {
   }
 }
 .card__picture--6 {
-  background-image: linear-gradient(to right bottom, #F8EDEB, #A2C8CC), url(../img/ohesisGasblack.png);
+  background-image: linear-gradient(to right bottom, #F8EDEB, #A2C8CC), url(../img/checklist.png);
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
   .card__picture--6 {
-    background-image: linear-gradient(to right bottom, #F8EDEB, #A2C8CC), url(../img/ohesisGasblack.png);
+    background-image: linear-gradient(to right bottom, #F8EDEB, #A2C8CC), url(../img/checklist.png);
   }
 }
 .card__heading {

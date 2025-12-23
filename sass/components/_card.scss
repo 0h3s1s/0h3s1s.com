@@ -201,14 +201,14 @@
       background-image: linear-gradient(to right bottom,
           $color-senary-light,
           $color-senary-dark ),
-        url(../img/ohesisGasblack.png);
+        url(../img/checklist.png);
 
       @media only screen and (min-width: 56.25em),
       (min-width: 125em) {
         background-image: linear-gradient(to right bottom,
             $color-senary-light,
             $color-senary-dark),
-          url(../img/ohesisGasblack.png);
+          url(../img/checklist.png);
       }
     }
   }
