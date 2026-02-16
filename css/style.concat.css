@@ -689,14 +689,13 @@ body {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 3rem;
   /* 6rem */
 }
 .heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 1.5rem;
+  letter-spacing: 0.5rem;
   animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -731,7 +730,6 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  letter-spacing: 0.2rem;
   transition: all 0.2s;
 }
 @media only screen and (min-width: 56.25em), (min-width: 125em) {
