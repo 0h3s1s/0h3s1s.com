@@ -835,7 +835,7 @@ body {
 }
 @media only screen and (max-width: 75em) {
   .popup__left {
-    display: inline-block;
+    display: block;
   }
 }
 .popup__right {

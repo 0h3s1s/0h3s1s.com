@@ -40,7 +40,7 @@
     display: table-cell;
 
     @include respond(tab-land) {
-      display: inline-block;
+      display: block;
     }
   }
 
